@@ -1,5 +1,4 @@
 <?php
-
 #!/usr/bin/php
 
 require_once('path.inc');
@@ -28,4 +27,3 @@ $payload = json_encode($response);
 echo $payload;
 header("location: ./");
 ?>
-
