@@ -25,11 +25,6 @@ else
 
         $response = $client->send_request($request);
 
-	/*
-        echo "client received respose: ".PHP_EOL;
-        $payload = json_encode($response);
-        echo $payload;
-	*/
         if($response < 1)
 	{
                 echo "Failed";
