@@ -1,0 +1,145 @@
+head {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+body {
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	transition: all 0.5s;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	background-color:#343a40;   
+	color: white;
+	text-align: center;
+	height: 30px;
+}
+
+@media only screen and (max-width: 1200px)
+{
+
+}
+
+.profilenav {
+        overflow: hidden;
+        background-color: inherit;
+        position: static;
+        transition: all 0.5s;
+	margin-top: 0px;
+	width: 100vw;
+}
+
+
+.profilenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #2196F3;
+	display: block;
+}
+
+.profilenav a:hover {
+	color: #064579;
+}
+
+.navbar .nav-link a{
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font: Comic Sans MS;
+	text-decoration: none;
+}
+
+.navbar .nav-link a.active {
+	color: lightblue;
+}
+
+.navbar .nav-link a:hover,
+.navbar .nav-link a.focus {
+	color: RGB(170, 10, 10);
+}
+
+#logo {
+	font-family: 'Hind', sans-serif;
+	font-size: 30px;
+	letter-spacing: -2px;
+	text-shadow: 1px 1px 2px #c4c4c4;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	margin-top: -7px;
+}
+
+.login {
+	font-size: 16px;
+}
+
+.userinfo {
+	margin-top: 0vh;
+	margin-left: 25vw;
+}
+
+.shopPrefForm {
+	display: none;
+}
+
+.logForm {
+	margin-left: 30vw;
+}
+
+input[type=username], 
+input[type=password], 
+input[type=email], 
+input[type=zip] {
+	width: 35%;
+	padding: 12px 15px;
+	margin: 6px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.button{
+	display: inline-block;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: gray;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s
+}
+
+.button:hover {
+	opacity: 0.8;
+}
