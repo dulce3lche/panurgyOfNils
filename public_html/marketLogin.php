@@ -1,5 +1,4 @@
 <?php
-
 #!/usr/bin/php
 
 require_once('path.inc');
