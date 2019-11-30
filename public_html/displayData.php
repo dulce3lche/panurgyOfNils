@@ -146,8 +146,3 @@ $('.shopPref').click(function() {
 	$('.shopPrefForm').css('display', 'block');
 });
 </script>
-
-<!-- TO DO:
-MAX LENGTH ON INPUT FORM FIELDS
-UPDATED NOTIFICATION + TIMEOUT
--->
