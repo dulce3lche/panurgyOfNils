@@ -21,8 +21,6 @@ else {
         $request['username'] = $username;
 
         $response = $client->send_request($request);
-	//$payload = json_encode ($response);
-	//echo $payload;
 
 	$items = count($response);
 	$item = 0;
